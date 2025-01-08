@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO_URL=$(git remote get-url origin)
+REPO_URL=$(git remote get-url origin | sed 's/git@github.com:/https:\/\/github.com\//; s/\.git$//')
 COMMIT_PATH="/commit"
 
 # Output the header for the changelog
