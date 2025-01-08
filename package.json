@@ -1,0 +1,23 @@
+{
+  "name": "@mjt-engine/object",
+  "version": "1.1.9",
+  "sideEffects": false,
+  "description": "@mjtdev",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "publish": "./scripts/changes.sh > CHANGELOG.md && ./scripts/version.sh"
+  },
+  "keywords": [],
+  "author": "@mjtdev",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/json-stable-stringify": "^1.0.36",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "json-stable-stringify": "^1.1.1",
+    "@sinclair/typebox": "^0.33.7"
+  }
+}
