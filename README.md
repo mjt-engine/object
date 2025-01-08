@@ -1,6 +1,6 @@
-# @mjtdev Objects module
+# [MJT Engine](https://github.com/mjt-engine) Object Module
 
-Handy stuff for dealing with javascript objects
+Handy utilities for dealing with JavaScript objects and smoothing over rough edges of the JavaScript/TypeScript experience.
 
 ## Documentation
 
