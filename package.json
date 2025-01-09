@@ -8,7 +8,10 @@
   "scripts": {
     "build": "tsc -b",
     "docs": "typedoc src/index.ts",
-    "publish": "./scripts/changes.sh > CHANGELOG.md && ./scripts/version.sh"
+    "build-docs": "pnpm run build && pnpm run docs",
+    "changelog": "./scripts/changes.sh > CHANGELOG.md",
+    "changelog-version": "pnpm run changelog && ./scripts/version.sh",
+    "publish": "pnpm run build-docs && pnpm run changelog-version"
   },
   "keywords": [],
   "author": "Matt Taylor (https://mjt.dev)",
