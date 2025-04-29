@@ -3,7 +3,7 @@ import { timesGen } from "./timesGen";
 import { isIterable } from "./type/isIterable";
 import { parseIncompleteJson } from "./parseIncompleteJson";
 export declare const Objects: {
-    lengthOf: (value: unknown) => any;
+    lengthOf: (value: unknown) => number;
     isErrorLike: (maybe: unknown) => maybe is import("..").ErrorLike;
     orError: <T>(f: () => T, options?: Partial<{
         message?: string;
