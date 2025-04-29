@@ -1,3 +1,4 @@
+
 export type Indexable<T = unknown> = Array<T> | ArrayBufferView;
 
 export const isIndexable = <T>(
@@ -5,3 +6,5 @@ export const isIndexable = <T>(
 ): val is Array<T> | ArrayBufferView => {
   return Array.isArray(val) || ArrayBuffer.isView(val);
 };
+
+

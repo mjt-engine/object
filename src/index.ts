@@ -4,6 +4,8 @@ export * from "./object/type/Nullable";
 export * from "./object/type/Producer";
 export * from "./object/type/TypeGuard";
 export * from "./object/type/Indexable";
+export * from "./object/type/Indexable";
+export * from "./object/type/TypedArray";
 
 export * from "./object/Arrays";
 export * from "./object/Objects";
@@ -22,6 +24,7 @@ export * from "./key/Keys";
 export * from "./object/typebox/TypeBoxes";
 
 export const {
+  lengthOf,
   isErrorLike,
   chain,
   entries,

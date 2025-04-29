@@ -53,8 +53,10 @@ import { values } from "./values";
 import { waitTimeout } from "./waitTimeout";
 import { createSettler } from "./createSettler";
 import { parseIncompleteJson } from "./parseIncompleteJson";
+import { lengthOf } from "./lengthOf";
 
 export const Objects = {
+  lengthOf,
   isErrorLike,
   orError,
   tryValue,
