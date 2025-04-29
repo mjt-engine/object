@@ -1,6 +1,9 @@
 # Changelog
 
 
+## 2025-04-29
+- added Indexable type ([402e10a](https://github.com/mjt-engine/object/commit/402e10a4dd071dcf77c6c71c4257193ad94af47e)) by Matt Taylor
+
 ## 2025-01-09
 - fix typo in version script ([36aa4a4](https://github.com/mjt-engine/object/commit/36aa4a4266d65bb873a0038884f36f2f98cfed22)) by Matt Taylor
 
