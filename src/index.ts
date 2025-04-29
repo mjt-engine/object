@@ -3,6 +3,7 @@ export * from "./object/type/ErrorLike";
 export * from "./object/type/Nullable";
 export * from "./object/type/Producer";
 export * from "./object/type/TypeGuard";
+export * from "./object/type/Indexable";
 
 export * from "./object/Arrays";
 export * from "./object/Objects";
