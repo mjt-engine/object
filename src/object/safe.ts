@@ -7,7 +7,7 @@ export const safe = <R>(
   options: Partial<{
     quiet: boolean;
     def: R;
-    onError: ValueProducer<string>;
+    onError: ValueProducer<R>;
   }> = {}
 ): R | undefined => {
   const { quiet = false, def = undefined, onError } = options;
