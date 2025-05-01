@@ -1,6 +1,9 @@
 # Changelog
 
 
+## 2025-05-01
+- fix type bug on safe for error ([62b1441](https://github.com/mjt-engine/object/commit/62b1441ddd70a786980460bf69f565185ea66f88)) by Matt Taylor
+
 ## 2025-04-29
 - added TypedArray type, and lengthOf ([d43141d](https://github.com/mjt-engine/object/commit/d43141db2ecef64412af5c18f2dbbe5b41a69862)) by Matt Taylor
 - added TypedArray type, and lengthOf ([e24abfc](https://github.com/mjt-engine/object/commit/e24abfc1047fe088175d712e43f82c4163078b9f)) by Matt Taylor

@@ -53,7 +53,7 @@ export declare const Objects: {
     safe: <R>(producer: () => R, options?: Partial<{
         quiet: boolean;
         def: R;
-        onError: import("..").ValueProducer<string>;
+        onError: import("..").ValueProducer<R>;
     }>) => R | undefined;
     safeAsync: <R>(producer: () => Promise<R> | R, options?: Partial<{
         quiet: boolean;
