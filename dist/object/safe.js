@@ -1,7 +1,7 @@
 import { isDefined } from "./isDefined";
 import { valueOf } from "./valueOf";
 export const safe = (producer, options = {}) => {
-    const { quiet = false, def = undefined, onError } = options;
+    const { quiet = false, default: def = undefined, onError } = options;
     try {
         return producer();
     }

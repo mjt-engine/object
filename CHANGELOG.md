@@ -2,6 +2,7 @@
 
 
 ## 2025-05-01
+- better naming of default option for safe ([b6aebce](https://github.com/mjt-engine/object/commit/b6aebce8d8a47779183675fb6930a129164c8d3e)) by Matt Taylor
 - fix type bug on safe for error ([62b1441](https://github.com/mjt-engine/object/commit/62b1441ddd70a786980460bf69f565185ea66f88)) by Matt Taylor
 
 ## 2025-04-29

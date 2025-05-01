@@ -52,7 +52,7 @@ export declare const Objects: {
     tuple5: <A, B, C, D, E>(a: A, b: B, c: C, d: D, e: E) => import("./tuples").Tuple5<A, B, C, D, E>;
     safe: <R>(producer: () => R, options?: Partial<{
         quiet: boolean;
-        def: R;
+        default: R;
         onError: import("..").ValueProducer<R>;
     }>) => R | undefined;
     safeAsync: <R>(producer: () => Promise<R> | R, options?: Partial<{
