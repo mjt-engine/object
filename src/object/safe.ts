@@ -6,11 +6,11 @@ export const safe = <R>(
   producer: () => R,
   options: Partial<{
     quiet: boolean;
-    def: R;
+    default: R;
     onError: ValueProducer<R>;
   }> = {}
 ): R | undefined => {
-  const { quiet = false, def = undefined, onError } = options;
+  const { quiet = false, default: def = undefined, onError } = options;
   try {
     return producer();
   } catch (error) {
