@@ -1,1 +1,1 @@
-{"version":3,"file":"lengthOf.d.ts","sourceRoot":"","sources":["../../src/object/lengthOf.ts"],"names":[],"mappings":"AAGA,eAAO,MAAM,QAAQ,UAAW,OAAO,WAKtC,CAAC"}
+{"version":3,"file":"lengthOf.d.ts","sourceRoot":"","sources":["../../src/object/lengthOf.ts"],"names":[],"mappings":"AAGA,eAAO,MAAM,QAAQ,GAAI,OAAO,OAAO,WAKtC,CAAC"}

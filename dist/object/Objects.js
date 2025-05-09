@@ -54,7 +54,9 @@ import { waitTimeout } from "./waitTimeout";
 import { createSettler } from "./createSettler";
 import { parseIncompleteJson } from "./parseIncompleteJson";
 import { lengthOf } from "./lengthOf";
+import { popSet } from "./popSet";
 export const Objects = {
+    popSet,
     lengthOf,
     isErrorLike,
     orError,

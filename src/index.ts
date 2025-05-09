@@ -24,6 +24,7 @@ export * from "./key/Keys";
 export * from "./object/typebox/TypeBoxes";
 
 export const {
+  popSet,
   lengthOf,
   isErrorLike,
   chain,
