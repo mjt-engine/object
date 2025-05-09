@@ -1,6 +1,6 @@
 {
   "name": "@mjt-engine/object",
-  "version": "2025.5.1-1000",
+  "version": "2025.5.9-1352",
   "sideEffects": false,
   "description": "object utilities",
   "main": "./dist/index.js",

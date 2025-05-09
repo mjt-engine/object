@@ -1,6 +1,9 @@
 # Changelog
 
 
+## 2025-05-09
+- added popSet, bumped deps ([a1ae5e6](https://github.com/mjt-engine/object/commit/a1ae5e644a73c7c06683b3bb012e77f79966bfb9)) by Matt Taylor
+
 ## 2025-05-01
 - better naming of default option for safe ([b6aebce](https://github.com/mjt-engine/object/commit/b6aebce8d8a47779183675fb6930a129164c8d3e)) by Matt Taylor
 - fix type bug on safe for error ([62b1441](https://github.com/mjt-engine/object/commit/62b1441ddd70a786980460bf69f565185ea66f88)) by Matt Taylor
