@@ -1,6 +1,9 @@
 # Changelog
 
 
+## 2025-10-25
+- bump-deps ([7e7300f](https://github.com/mjt-engine/object/commit/7e7300ffdcb961f317e9e0743ac1c56b78d18156)) by Matt Taylor
+
 ## 2025-05-09
 - added popSet, bumped deps ([a1ae5e6](https://github.com/mjt-engine/object/commit/a1ae5e644a73c7c06683b3bb012e77f79966bfb9)) by Matt Taylor
 
